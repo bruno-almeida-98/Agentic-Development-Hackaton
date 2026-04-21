@@ -1,3 +1,22 @@
+# Specific from this project
+requirements/
+CLAUDE.md
+.DS_Store
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Backend test artifacts
+backend/test.db
+backend/.pytest_cache/
+
+# Uploads (local dev)
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
